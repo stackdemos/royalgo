@@ -1,0 +1,35 @@
+parameters:
+  - name: application.bucket.endpoint
+    value: 'https://s3.amazonaws.com/'
+  - name: application.bucket.name
+    value: agilestacks-demo10-superhub-io
+  - name: application.bucket.region
+    value: us-east-1
+  - name: application.description
+    value: Kubeflow pipeline
+  - name: application.ecr.path
+    value: royalgo
+  - name: application.name
+    value: royalgo
+  - name: component.dex.okta.appId
+    value: 0oa4lxjs1cWJUAY0t2p7
+  - name: component.dex.okta.clientId
+    value: 0oa4lxjs1cWJUAY0t2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: royalgo
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.bucket.endpoint
+  - name: application.bucket.name
+  - name: application.bucket.region
+  - name: application.description
+  - name: application.ecr.path
+  - name: application.name
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
